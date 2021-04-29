@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DE781B06-5A85-995D-13C9-831E3414C275" name="EMPLOYEE">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:09:54 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<ordsAlias>table_17</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EmployeeId" id="22D76A00-1699-9C0D-1B70-F5D40E9409C9">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:56:34 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpFName" id="A34A0585-48D4-43B6-6C68-ECB0A597574A">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:57:56 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmpLName" id="64120D37-2528-AAFC-CDC7-DF7ADC0F95A5">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:58:31 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF1DDBCD-AD3F-BE09-BAF7-D414E7ECA13A" name="EMPLOYEE_PK">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:56:34 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22D76A00-1699-9C0D-1B70-F5D40E9409C9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

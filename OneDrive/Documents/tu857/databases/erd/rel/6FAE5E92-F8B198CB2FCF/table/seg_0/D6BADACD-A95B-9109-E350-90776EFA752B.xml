@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6BADACD-A95B-9109-E350-90776EFA752B" name="REGION">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:10:32 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Region" id="852B6AD1-D50F-B329-E8C5-2501E3580F80">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:18:27 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Region_1" id="ACC716B1-311A-85AE-94B8-6FEBE77F7760">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:18:53 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48054997-F3B0-4C7A-330C-D5A42C5242F8" name="REGION_PK">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:18:27 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="852B6AD1-D50F-B329-E8C5-2501E3580F80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

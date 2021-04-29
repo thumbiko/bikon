@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54C58195-023F-8F5E-DCFD-02A823A62EA7" name="DRIVER">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:09:39 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<ordsAlias>table_16</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DriverId" id="7E87FB3C-F3DA-4888-9BF5-B60E76EC4E00">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:32:34 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C46415D-2477-0CDC-A583-5EFEBE8DBAB2" name="DRIVER_PK">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:32:34 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E87FB3C-F3DA-4888-9BF5-B60E76EC4E00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

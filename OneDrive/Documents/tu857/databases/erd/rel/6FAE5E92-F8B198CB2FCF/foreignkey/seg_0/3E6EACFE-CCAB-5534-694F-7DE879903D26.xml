@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3E6EACFE-CCAB-5534-694F-7DE879903D26" containerWithKeyObject="3771CCAF-5156-B21E-8EEF-2AFB6E0B864C" localFKIndex="A9F03A48-1BA2-5A1D-DB51-B5CCA0B4F583" name="VEHICLE_DRIVER_FK">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:32:46 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<referredTableLongName>DRIVER</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>54C58195-023F-8F5E-DCFD-02A823A62EA7</referredTableID>
+<keyObject>8C46415D-2477-0CDC-A583-5EFEBE8DBAB2</keyObject>
+<referredKeyID>8C46415D-2477-0CDC-A583-5EFEBE8DBAB2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DriverId</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

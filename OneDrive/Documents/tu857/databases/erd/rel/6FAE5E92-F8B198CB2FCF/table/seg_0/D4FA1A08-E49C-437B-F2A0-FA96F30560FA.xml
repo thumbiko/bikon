@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4FA1A08-E49C-437B-F2A0-FA96F30560FA" name="STOCK">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:10:41 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F6836F28-A77C-203D-A8A1-C9CECA70DF5B" name="LOCATION">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:06:27 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOCATION_ID" id="327A08F8-408D-373B-A65D-CC8BE2E49C82">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:13:50 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_LOCATION_LOCATION_ID</notNullConstraintName>
+</Column>
+<Column name="StreetAddress" id="CB22999F-C9E4-E398-F0FF-1A46D4DEA339">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:14:34 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="B86767D0-E694-0B8E-ED69-F1634F25FE66">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:14:58 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PostCode" id="D13A4586-B8D8-2AC2-3784-F4EDD5FB250B">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:15:23 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNTRIES_CountryId" id="E302FBAF-C35C-C5F2-4215-096D83C6C43B">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:21:36 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<notNullConstraintName>NNC_LOCATION_COUNTRIES_CountryId</notNullConstraintName>
+<associations>
+<colAssociation fkAssociation="DC2A0279-229C-8A8F-6D7C-5733438936CD" referredColumn="9D2E737A-A666-C810-BB55-11A07CD89599"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1E579CF-5EDA-B1DC-6330-5B5433F79FA4" name="LOCATION_PK">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:13:53 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="327A08F8-408D-373B-A65D-CC8BE2E49C82"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97AD0B48-1AF0-3F9D-8C4A-578770EF1253" name="LOCATION_COUNTRIES_FK">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:21:36 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E302FBAF-C35C-C5F2-4215-096D83C6C43B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

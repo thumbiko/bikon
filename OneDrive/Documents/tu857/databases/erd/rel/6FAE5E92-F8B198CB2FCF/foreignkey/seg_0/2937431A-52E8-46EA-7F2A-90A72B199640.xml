@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2937431A-52E8-46EA-7F2A-90A72B199640" containerWithKeyObject="3771CCAF-5156-B21E-8EEF-2AFB6E0B864C" localFKIndex="C984B155-0FD2-AA1E-547F-CC24C563BEB2" name="VEHICLE_LOCATION_FK">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:28:26 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<referredTableLongName>LOCATION</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F6836F28-A77C-203D-A8A1-C9CECA70DF5B</referredTableID>
+<keyObject>D1E579CF-5EDA-B1DC-6330-5B5433F79FA4</keyObject>
+<referredKeyID>D1E579CF-5EDA-B1DC-6330-5B5433F79FA4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>LOCATION_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

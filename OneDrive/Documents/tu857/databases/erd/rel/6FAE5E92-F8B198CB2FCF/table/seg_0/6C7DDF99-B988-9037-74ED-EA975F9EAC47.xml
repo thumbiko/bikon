@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C7DDF99-B988-9037-74ED-EA975F9EAC47" name="CUSTOMER">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:36:37 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CustomerId" id="64EE2A30-9846-7C0F-F060-7CECEB855B97">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:38:26 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="355E47C0-E2BB-8FBA-F126-814F7C605A86">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:44:02 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Gender" id="BE84BE9C-9164-2C92-3DB6-FE4E568DBC08">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:44:02 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FName" id="3CD81BDF-FC3D-264C-53D9-DEECAB4AF597">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:44:02 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SName" id="C71383E1-FD0C-39D2-D27A-7D2B9BFD4B5B">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:44:02 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="B.O.D" id="C164CE96-3CB4-A79E-E272-FF1B61B4B24E">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:44:02 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PhoneNumer" id="751A518C-DB43-540E-F300-49313D44E729">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:44:02 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="City" id="103C9D19-02FA-BA5D-37C2-0AED62CECD8C">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:44:02 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PostCode" id="FD1069DB-EF67-3D7C-CA58-C644159FEC29">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:44:02 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Street" id="50FE395E-3AE8-7147-96A2-0FB28F23579F">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:44:02 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HouseNumber" id="4EF61DB8-28C7-5471-CCCC-2A36002A4613">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:44:02 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMPLOYEE_EmployeeId" id="96FFD9E3-E70C-9CFD-AC02-9071EDC22425">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:04:50 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F21C9A3F-4701-49F8-E7CD-D00CC3A4CF1C" referredColumn="22D76A00-1699-9C0D-1B70-F5D40E9409C9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="011E1DB3-7ED5-925E-F84E-822A87EBAC16" name="CUSTOMER_PK">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:41:10 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64EE2A30-9846-7C0F-F060-7CECEB855B97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23A953A9-F2FF-1DC5-CCA2-7F3798C77BC1" name="CUSTOMER_EMPLOYEE_FK">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:04:50 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96FFD9E3-E70C-9CFD-AC02-9071EDC22425"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

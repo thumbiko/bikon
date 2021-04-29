@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3771CCAF-5156-B21E-8EEF-2AFB6E0B864C" name="VEHICLE">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 19:05:57 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="LOCATION_LOCATION_ID" id="B2287F7D-CAFB-E794-F07B-C36A34792807">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:28:26 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2937431A-52E8-46EA-7F2A-90A72B199640" referredColumn="327A08F8-408D-373B-A65D-CC8BE2E49C82"/>
+</associations>
+</Column>
+<Column name="VehicleId" id="72711603-4CA6-0D17-9E9F-A92323D026BD">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:30:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DRIVER_DriverId" id="503A89C9-63CA-E8D6-941E-2099439518FA">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:32:46 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E6EACFE-CCAB-5534-694F-7DE879903D26" referredColumn="7E87FB3C-F3DA-4888-9BF5-B60E76EC4E00"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0300EEB6-A5AD-1FC5-786C-86550354C53C" name="VEHICLE_PK">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:30:22 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="72711603-4CA6-0D17-9E9F-A92323D026BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C984B155-0FD2-AA1E-547F-CC24C563BEB2" name="VEHICLE_LOCATION_FK">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:28:26 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2287F7D-CAFB-E794-F07B-C36A34792807"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A9F03A48-1BA2-5A1D-DB51-B5CCA0B4F583" name="VEHICLE_DRIVER_FK">
+<createdBy>bikon</createdBy>
+<createdTime>2021-04-29 20:32:46 UTC</createdTime>
+<ownerDesignName>erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="503A89C9-63CA-E8D6-941E-2099439518FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
