@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="5C2F7D50-5AD9-A69A-B4BF-1D64B0BEAF7E" mainViewID="6745B5EA-AEC8-23D3-B903-712D1A26B06E">
+<createdBy>bikon</createdBy>
+<createdTime>2021-11-09 18:56:42 UTC</createdTime>
+<ownerDesignName>relationalass</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

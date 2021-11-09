@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="relationalass" id="D11AF148-B386-2C3F-37C2-F8DB63169731" version="3.5">
+<createdBy>bikon</createdBy>
+<createdTime>2021-11-09 18:56:42 UTC</createdTime>
+<ownerDesignName>relationalass</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>D11AF148-B386-2C3F-37C2-F8DB63169731</designId>
+</OSDM_Design>

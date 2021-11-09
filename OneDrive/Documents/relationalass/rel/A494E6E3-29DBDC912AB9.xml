@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="A494E6E3-EB4C-DC80-5DA0-29DBDC912AB9" mainViewID="7AEC90A0-BF76-A6F9-09C2-E5812ABA7724">
+<createdBy>bikon</createdBy>
+<createdTime>2021-11-09 18:56:42 UTC</createdTime>
+<ownerDesignName>relationalass</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

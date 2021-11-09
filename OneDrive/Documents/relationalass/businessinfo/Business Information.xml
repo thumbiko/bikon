@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="2CC5ACF8-24DB-B5F9-4CA1-C3AF68A23DB9">
+<createdBy>bikon</createdBy>
+<createdTime>2021-11-09 18:56:42 UTC</createdTime>
+<ownerDesignName>relationalass</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
