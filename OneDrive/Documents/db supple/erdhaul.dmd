@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="erdhaul" id="C0E72F21-7F3D-2134-0292-684EE1E8B330" version="3.5">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 10:29:14 UTC</createdTime>
+<ownerDesignName>erdhaul</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C0E72F21-7F3D-2134-0292-684EE1E8B330</designId>
+</OSDM_Design>

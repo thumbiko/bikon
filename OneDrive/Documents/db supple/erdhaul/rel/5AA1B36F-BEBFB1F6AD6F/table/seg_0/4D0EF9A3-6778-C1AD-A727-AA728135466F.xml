@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4D0EF9A3-6778-C1AD-A727-AA728135466F" name="Vehichle">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>4DEDA16F-EC85-F904-4E2B-F40772019DCF</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Vehicle_reg" id="500B9267-4B1A-92E2-2577-73256E37478A">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>A4EBEC2D-6147-A09B-C445-B147E18AACE2</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="make" id="AACB7599-E941-42C3-F3EE-FF5D1B7C1383">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>BB060B3D-46FE-DB40-62AF-329058944EA7</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="driver_id" id="D771E3EC-A05D-A427-BADC-C5F2C9061E09">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>835B4BDC-8481-E41D-35C8-909F372F6CFA</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3907E47-6746-3FD9-D0F4-5EC9B63856AC" referredColumn="B3329887-4C77-9283-D340-7F0D9B2C1528"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A13808D1-68D4-F77C-2041-1E7C3EDE883E" name="Vehichle_PK">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>49EFED4C-C8DC-7342-6286-373870D0A61B</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="500B9267-4B1A-92E2-2577-73256E37478A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E601F342-8480-1001-A72D-674A2B4919B4" name="Vehichle_Driver_FK">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>D1A79F05-62CD-B8A2-06CD-99D3C3CE0A12</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D771E3EC-A05D-A427-BADC-C5F2C9061E09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

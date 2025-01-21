@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_3" directorySegmentName="seg_0" id="D1A79F05-62CD-B8A2-06CD-99D3C3CE0A12">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 12:33:22 UTC</createdTime>
+<ownerDesignName>erdhaul</ownerDesignName>
+<engineerTo>
+<item key="5AA1B36F-FE52-D0A9-FDE8-BEBFB1F6AD6F" value="true"/>
+</engineerTo>
+<sourcePk>52EBFB2F-CAE6-F90E-7FDC-E1474739EF3B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0EB81381-437F-C149-7D76-9B30FE41BC0B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4DEDA16F-EC85-F904-4E2B-F40772019DCF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

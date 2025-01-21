@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C191CC4D-1846-EB2A-4C5E-681D610F6A6E" name="Relation_5">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<ownerDesignName>erdhaul</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Orders_order_id" id="DCCCCAB4-D368-754C-3C09-4C9EF7590693">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<ownerDesignName>erdhaul</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48B478E6-3E03-B216-8B42-C43912CBBD6A" referredColumn="5DD854A7-C8FC-0759-F732-8B45E7AEBE6C"/>
+</associations>
+</Column>
+<Column name="Orders_Cus_id" id="D7B1222F-C312-5AB8-819E-E164BB937472">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<ownerDesignName>erdhaul</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48B478E6-3E03-B216-8B42-C43912CBBD6A" referredColumn="C7D65B4B-6160-D660-A263-044BE18B83B5"/>
+</associations>
+</Column>
+<Column name="delivery_delivery_id" id="E7C8984A-D126-52D6-8760-9E850A5E50CD">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<ownerDesignName>erdhaul</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A400792C-EBE4-491C-6297-D8A9AFA16977" referredColumn="13D047C9-D5B8-7546-9306-43DD3E0549D5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="097DF80C-4CD0-7720-FAC8-C63406324C63" name="Relation_5_PK">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<ownerDesignName>erdhaul</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCCCCAB4-D368-754C-3C09-4C9EF7590693"/>
+<colUsage columnID="D7B1222F-C312-5AB8-819E-E164BB937472"/>
+<colUsage columnID="E7C8984A-D126-52D6-8760-9E850A5E50CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F57BF41-CD7C-5CB8-75B6-3D888BA3BA9D" name="Relation_5_Orders_FK">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>9ABC3359-8D9C-9140-4531-534A3C0D0BBD</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DCCCCAB4-D368-754C-3C09-4C9EF7590693"/>
+<colUsage columnID="D7B1222F-C312-5AB8-819E-E164BB937472"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6AA7B18-9867-C76A-40B6-B8CFFEA9537B" name="Relation_5_delivery_FK">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>9ABC3359-8D9C-9140-4531-534A3C0D0BBD</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7C8984A-D126-52D6-8760-9E850A5E50CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

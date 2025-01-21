@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B6C2CB4F-1542-CD29-F6E7-46BEC0442302" containerWithKeyObject="9448E7BD-A50A-4118-1CEF-C5F3C2C75D96" localFKIndex="4862C589-3DF7-995B-244B-816E76277D91" name="Relation_2_Orders_FK">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>8A0143F5-CF00-D693-F3D3-DD2A53D8507F</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<referredTableLongName>Orders</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2E55443D-0EA4-AF23-A6F3-99CECE83C2A1</referredTableID>
+<keyObject>03DCAF73-5EE2-D0C8-1278-0615C759B10E</keyObject>
+<referredKeyID>03DCAF73-5EE2-D0C8-1278-0615C759B10E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>order_id,Cus_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

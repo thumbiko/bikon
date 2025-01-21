@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E55443D-0EA4-AF23-A6F3-99CECE83C2A1" name="Orders">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>8B083262-75CA-E5A7-06AF-042763A6CB1A</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="order_id" id="5DD854A7-C8FC-0759-F732-8B45E7AEBE6C">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>97751828-CD9B-F549-61F8-A5870F016D04</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="orderDate" id="2EAB68C7-7DB8-DB98-FF80-D70709695780">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>7CABF711-F695-8F11-DE68-C18E03425AAD</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cus_id" id="C7D65B4B-6160-D660-A263-044BE18B83B5">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>67F1A62B-821C-2D6F-7013-2B09951A2D24</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FE74E01-B463-C6AD-3F22-8C0855BA3826" referredColumn="523BF8F1-7484-D08A-6219-1A7A839AFFFA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="03DCAF73-5EE2-D0C8-1278-0615C759B10E" name="Orders_PK">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>7BBD3CCF-7F21-A387-4B11-EDAB1DE0342B</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DD854A7-C8FC-0759-F732-8B45E7AEBE6C"/>
+<colUsage columnID="C7D65B4B-6160-D660-A263-044BE18B83B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6373582D-48BB-4C00-9C35-7B06819BA231" name="Orders_Customer_FK">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>27C3793C-2FF8-A7E1-DA04-222F06A5E0A5</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7D65B4B-6160-D660-A263-044BE18B83B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

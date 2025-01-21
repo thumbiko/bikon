@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="668697A7-32DF-54A6-C31D-B622A0EA4A09" containerWithKeyObject="5996282D-0D34-9834-5BE7-93D6B00AD153" localFKIndex="677637A2-71AC-E012-FC32-1F64450786B3" name="Driver_delivery_FK">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>B74CB764-D052-F180-F229-AF89404104D6</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<referredTableLongName>delivery</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6BEB23A7-6B48-C7B6-9631-54AEDEB02E97</referredTableID>
+<keyObject>14685988-7E5A-A33B-F464-B036DAA56863</keyObject>
+<referredKeyID>14685988-7E5A-A33B-F464-B036DAA56863</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>delivery_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

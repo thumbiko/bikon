@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E170F206-1A62-3D06-F10F-87FEC61088E6" containerWithKeyObject="A5073F4D-40B9-BE3A-CE74-2A1B878CBCCF" localFKIndex="1D7411EA-CDAC-A821-519C-B0BC1A5EE403" name="stock_type_Stock_FK">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>3911D89D-35B1-BCD0-9473-14534E64A74E</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<referredTableLongName>Stock</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E424053A-51EF-AB11-957B-42B06FEE145B</referredTableID>
+<keyObject>1DDD6CA2-3BEE-D38D-F2E4-435D369F3464</keyObject>
+<referredKeyID>1DDD6CA2-3BEE-D38D-F2E4-435D369F3464</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>stock_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

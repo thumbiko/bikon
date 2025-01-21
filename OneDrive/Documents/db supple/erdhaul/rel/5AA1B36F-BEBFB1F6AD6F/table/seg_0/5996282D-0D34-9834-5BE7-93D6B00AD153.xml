@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5996282D-0D34-9834-5BE7-93D6B00AD153" name="Driver">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>0EB81381-437F-C149-7D76-9B30FE41BC0B</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="driver_id" id="B3329887-4C77-9283-D340-7F0D9B2C1528">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>D6FD38D6-DCE6-3806-F902-DFE3207B438F</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="D463C1BA-57CB-E97E-0085-62AE32D48B63">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>FD65CC07-BA0F-1C5A-7DC8-83E86B877845</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="6A875F00-1A23-8DD3-A342-D401167AFC47">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>F34AFF9D-84CC-AF7E-D833-98E5F04B6953</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="delivery_id" id="CA02B8C0-73BB-5CED-69C0-A1F68BFE5772">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>C23DF661-8E7B-E968-9243-EBB69E84C782</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="668697A7-32DF-54A6-C31D-B622A0EA4A09" referredColumn="13D047C9-D5B8-7546-9306-43DD3E0549D5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CB6B8AE8-DAC2-FF59-12DC-BACD6285E105" name="Driver_PK">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>52EBFB2F-CAE6-F90E-7FDC-E1474739EF3B</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3329887-4C77-9283-D340-7F0D9B2C1528"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CAC984B-C436-12A3-38E2-B14CC6BE1507" name="Driver__IDX">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<ownerDesignName>erdhaul</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>B74CB764-D052-F180-F229-AF89404104D6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CA02B8C0-73BB-5CED-69C0-A1F68BFE5772"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="677637A2-71AC-E012-FC32-1F64450786B3" name="Driver_delivery_FK">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 13:11:58 UTC</createdTime>
+<generatorID>B74CB764-D052-F180-F229-AF89404104D6</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA02B8C0-73BB-5CED-69C0-A1F68BFE5772"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4DEDA16F-EC85-F904-4E2B-F40772019DCF" name="Vehichle">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 12:12:53 UTC</createdTime>
+<ownerDesignName>erdhaul</ownerDesignName>
+<engineerTo>
+<item key="5AA1B36F-FE52-D0A9-FDE8-BEBFB1F6AD6F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Vehicle_reg" id="A4EBEC2D-6147-A09B-C445-B147E18AACE2">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 12:13:07 UTC</createdTime>
+<ownerDesignName>erdhaul</ownerDesignName>
+<engineerTo>
+<item key="5AA1B36F-FE52-D0A9-FDE8-BEBFB1F6AD6F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="make" id="BB060B3D-46FE-DB40-62AF-329058944EA7">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 12:16:48 UTC</createdTime>
+<ownerDesignName>erdhaul</ownerDesignName>
+<engineerTo>
+<item key="5AA1B36F-FE52-D0A9-FDE8-BEBFB1F6AD6F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_id" id="835B4BDC-8481-E41D-35C8-909F372F6CFA">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 12:33:22 UTC</createdTime>
+<generatorID>D1A79F05-62CD-B8A2-06CD-99D3C3CE0A12</generatorID>
+<ownerDesignName>erdhaul</ownerDesignName>
+<engineerTo>
+<item key="5AA1B36F-FE52-D0A9-FDE8-BEBFB1F6AD6F" value="true"/>
+</engineerTo>
+<referedAttribute>D6FD38D6-DCE6-3806-F902-DFE3207B438F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="49EFED4C-C8DC-7342-6286-373870D0A61B" name="Key_1">
+<createdBy>bikon</createdBy>
+<createdTime>2022-09-01 12:13:24 UTC</createdTime>
+<ownerDesignName>erdhaul</ownerDesignName>
+<engineerTo>
+<item key="5AA1B36F-FE52-D0A9-FDE8-BEBFB1F6AD6F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A4EBEC2D-6147-A09B-C445-B147E18AACE2</newElementsIDs>
+<usedAttributes>
+<attributeRef>A4EBEC2D-6147-A09B-C445-B147E18AACE2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
